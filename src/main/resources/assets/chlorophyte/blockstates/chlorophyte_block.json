@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "chlorophyte:block/chlorophyte_block"
+    },
+    "clicked=true": {
+      "model": "chlorophyte:block/shifted_chlorophyte_block"
+    }
+  }
+}

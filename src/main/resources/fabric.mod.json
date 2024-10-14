@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "chlorophyte",
+	"version": "${version}",
+	"name": "Chlorophyte",
+	"description": "Now with both more chloroph and yte! Only on modrinth and discord, folks!",
+	"authors": [
+		"@fluttercat555"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/fluttercat555",
+		"discord": "https://discord.com/invite/MFtw5sNp6P"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chlorophyte/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"uwu.fluttercat.chlorophyte.Chlorophyte"
+		],
+		"fabric-datagen": [
+			"uwu.fluttercat.chlorophyte.ChlorophyteDataGenerator"
+		],
+		"client": [
+			"uwu.fluttercat.chlorophyte.ChlorophyteClient"
+		]
+	},
+	"mixins": [
+		"chlorophyte.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
