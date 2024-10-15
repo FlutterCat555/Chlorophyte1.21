@@ -17,7 +17,7 @@ import uwu.fluttercat.chlorophyte.block.custom.ChlorophyteBlock;
 public class ModBlocks {
 
     public static  final Block CHLOROPHYTE_BLOCK = registerBlock("chlorophyte_block",
-            new ChlorophyteBlock(AbstractBlock.Settings.create().mapColor(MapColor.EMERALD_GREEN).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new ChlorophyteBlock(AbstractBlock.Settings.create().mapColor(MapColor.EMERALD_GREEN).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK).nonOpaque()));
     public static  final Block SHIFTED_CHLOROPHYTE_BLOCK = registerBlock("shifted_chlorophyte_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.DIAMOND_BLUE).sounds(BlockSoundGroup.AMETHYST_BLOCK).noCollision().nonOpaque()));
 
