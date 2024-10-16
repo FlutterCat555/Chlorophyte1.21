@@ -1,9 +1,9 @@
 {
   "variants": {
-    "clicked=false": {
+    "lit=false": {
       "model": "chlorophyte:block/chlorophyte_block"
     },
-    "clicked=true": {
+    "lit=true": {
       "model": "chlorophyte:block/shifted_chlorophyte_block"
     }
   }
