@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "iEi",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:short_grass"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "chlorophyte:chlorophyte",
+    "count": 1
+  }
+}
